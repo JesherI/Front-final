@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    color: #59237E;
+    font-family: 'Georgia', serif; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .exam-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 40px;
+    max-width: 800px;
+    border-radius: 8px;
+    position: relative;
+    padding-top: 10px;
+  }
+  
+  .question-block {
+    width: 100%;
+    padding-bottom: 30px;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .question-block input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #59237E;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .question-block select {
+    width: 40%;
+    padding: 2px;
+    margin: 2px 0;
+    border-radius: 5px;
+    border: 2px solid #7a12916d;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .answer-block {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  .add-answer-button {
+    background-color:#59237E;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+  }
+  
+  .add-answer-button:hover {
+    background-color: #7a12916d;
+  }
+  
+  .add-question-button {
+    background-color: #59237E;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    align-self: flex-end; 
+  }
+  .add-question-button:hover {
+    background-color: #7a12916d;
+  }
+  
+  .submit-button {
+    background-color: #59237E;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  .submit-button:hover {
+    background-color: #7a12916d;
+  }
+  

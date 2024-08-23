@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.conetnt-logo-con-fecha, .content-logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conetnt-logo-con-fecha img, .content-logo-icon img {
+  max-width: 100%;
+  height: auto;
+}

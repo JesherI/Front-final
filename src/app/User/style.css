@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Tipos {
+    text-align: left;
+    color: rgb(102, 16, 109);
+    margin-bottom: 20px;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .divider {
+    height: 100%; 
+  }
+  
+  .image-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .box {
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color:rgba(193, 155, 212, 0.466);
+    font-size: 12px;
+    
+  }
+  
+  .text-box {
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: #e7c8e576;
+    font-size: 11px;
+    width: 130px;
+    height: 30px;
+    margin-top: 30px;
+  
+  }
+  
+  .image-boxes .box img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .box p {
+    font-size: 15px;
+    color: #090009;
+  }
+  
+  .linea{
+    height: 350px;
+    width: 10px;
+    background-color: rgb(126, 42, 125);
+  }
+  
+  .Lapiz{
+    margin-top: -30px;
+    margin-left: 150px;
+  
+  }
+  
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: #59237E; 
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: rgb(95, 35, 129);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin: 30px;
+}

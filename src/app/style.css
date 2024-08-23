@@ -1,0 +1,39 @@
+.body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: #59237E; 
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    align-items: center;
+    justify-content: center;
+    color: #808080;
+    margin: 2.5%;
+    width: 60%;
+    font-size: 20px;
+}
+
+.imagen {
+    width: 40%;
+}
