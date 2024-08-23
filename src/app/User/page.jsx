@@ -10,6 +10,8 @@ const AdminPage = () => {
   return (
     <div>
       <Header></Header>
+      <button><Link href="/admin">Admin</Link></button>
+
       <br />
       <br />
       <br />
@@ -53,12 +55,21 @@ const AdminPage = () => {
                 </div>
                 <div className="divider"></div>
                 <div className="image-boxes">
-                  <Link href="/courceUser">
+                  <Link href="/courceuser">
                     <div className="box">
                       <Image src="/admin3.png" alt="Image 2" width={150} height={200} />
                       <center>
                         <p>Cursos</p><br />
                         <h1>Entra a los cursos <br /> y contenidos disponibles </h1>
+                      </center>
+                    </div>
+                  </Link>
+                  <Link href="/evaluacion">
+                    <div className="box">
+                      <Image src="/admin1.jpeg" alt="Image 1" width={150} height={200} />
+                      <center>
+                        <p>Evaluacion</p><br />
+                        <h1>Ve la evaluacion disponible<br /> de la </h1>
                       </center>
                     </div>
                   </Link>

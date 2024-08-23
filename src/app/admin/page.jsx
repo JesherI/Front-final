@@ -10,7 +10,9 @@ const AdminPage = () => {
   return (
     <div>
       <Header></Header>
-      <Link href="User/">User</Link>
+      <button>
+        <Link href="User/">User</Link>
+      </button>
       <br />
       <br />
       <br />
